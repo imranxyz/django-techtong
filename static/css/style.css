@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Merriweather', serif; */
+
+.logo {
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: -2.5px;
+}
+
+html,
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.color-black {
+    color: black;
+}
+
+.infinite-scroll-title {
+    font-size: calc(1.275rem + .3vw);
+    font-size: 1.35rem;
+}
+
+.infinite-scroll-subtitle {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .infinite-scroll-title {
+        letter-spacing: -0.0px;
+        font-size: 1.15rem;
+    }
+
+    .infinite-scroll-subtitle {
+        font-size: 1rem;
+    }
+
+    .infinite-scroll-author,
+    .infinite-scroll-date {
+        font-size: 0.8125rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .infinite-image {
+        display: none;
+    }
+}
+
+.footer a {
+    color: inherit;
+}
+
+.ul-footer .nav-link {
+    padding: 0px 10px 5px 0px;
+}
